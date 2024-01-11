@@ -34,6 +34,7 @@
 
 body {
     background: var(--cor-bg);
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -42,6 +43,7 @@ body {
 
 .container {
     width: 360px;
+    max-width: 588px;
     height: 712px;
     margin: auto;
 
@@ -201,3 +203,17 @@ footer {
 }
 
 
+
+@media (min-width:700px) {
+    body {
+        height: 100vh;
+    }
+
+    :root {
+        --cor-bg: url(./assets/bg-desktop.jpg)
+    }
+
+    .light {
+        --cor-bg: url(./assets/bg-desktop-light.jpg)
+    }
+}
