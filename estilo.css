@@ -57,7 +57,7 @@ body {
     justify-content: center;
     
     padding: 24px;
-    gap: 8px;
+    gap: 10px;
     
 }
 
@@ -71,6 +71,8 @@ body {
 }
 #startimage {
     width: 112px;
+    
+
 }
 
 .seletor {
